@@ -121,3 +121,44 @@ For detailed guidance, refer to user manuals or community resources such as [Ins
 In order to successfully use the instrument, calibration needs to be done via this pattern.
 
 ![pattern](/images/calibration-pattern_sm.jpg)
+
+## Overview of ATmega1284P
+
+The **ATmega1284P** is a popular 8-bit microcontroller from Microchip Technology (formerly Atmel) designed for a wide range of applications in embedded systems. Below are key specifications and features of the ATmega1284P.
+
+### Key Specifications
+
+| **Specification**          | **Details**                        |
+|----------------------------|------------------------------------|
+| **Architecture**           | AVR 8-bit                          |
+| **Operating Voltage**      | 1.8V to 5.5V                      |
+| **Flash Memory**           | 128 KB                             |
+| **SRAM**                   | 16 KB                              |
+| **EEPROM**                 | 4 KB                               |
+| **Clock Speed**            | Up to 20 MHz                      |
+| **GPIO Pins**              | 32 (I/O pins)                     |
+| **ADC Channels**           | 8 (10-bit resolution)             |
+| **PWM Channels**           | 6                                 |
+| **USART**                  | 1 (Universal Synchronous and Asynchronous serial receiver and transmitter) |
+| **SPI**                    | 1                                 |
+| **I2C (TWI)**              | Yes                               |
+| **Timers**                 | 3 (16-bit timers)                |
+| **Interrupts**             | 24 external interrupt lines       |
+
+### Key Features
+
+- **Versatility**: Suitable for various applications such as robotics, automation, and sensor interfacing.
+- **Low Power Consumption**: Can operate in different power-saving modes, making it ideal for battery-powered applications.
+- **Wide Range of Peripherals**: Supports digital input/output, analog-to-digital conversion, and communication protocols (SPI, I2C, USART).
+- **User-Friendly Development**: Compatible with popular development platforms such as the Arduino ecosystem, enhancing accessibility for hobbyists and professionals.
+
+### Applications
+
+- **DIY Electronics Projects**: Commonly used in homemade electronics and microcontroller-based projects.
+- **3D Printers**: Frequently found in control boards for 3D printers.
+- **Robotics**: Ideal for controlling motors and processing sensor data in robotic systems.
+- **Data Acquisition Systems**: Suitable for collecting and processing data from various sensors.
+
+### Conclusion
+
+The **ATmega1284P** is a versatile and powerful microcontroller that combines a rich set of features with a user-friendly design, making it a popular choice for both hobbyists and professionals. Whether used in 3D printers, robotics, or other embedded systems, it provides an excellent balance of performance and ease of use.
