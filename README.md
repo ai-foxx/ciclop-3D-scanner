@@ -61,8 +61,37 @@ The **20180205 v1.2 board**, also known as the **Ciclop 3D Scanner board**, has 
 
 ### Conclusion
 
-The **20180205 v1.2 board** is specialized for the **Ciclop 3D Scanner**, offering unique features beneficial for 3D scanning applications. While it may lack the versatility of typical RepRap boards in terms of 3D printing, it excels in its intended function and is tailored for users focused on 3D scanning projects. If you need further details or comparisons, feel free to ask!
+The **20180205 v1.2 board** is specialized for the **Ciclop 3D Scanner**, offering unique features beneficial for 3D scanning applications. While it may lack the versatility of typical RepRap boards in terms of 3D printing, it excels in its intended function and is tailored for users focused on 3D scanning projects.
 
+## Comparison: 20180205 v1.2 Board vs. Original CowTech Board
+
+The **20180205 v1.2 board** aligns closely with the original **CowTech** board from Kickstarter, as both are designed for the **Ciclop 3D Scanner** project. Here are some key points of comparison:
+
+| **Aspect**                     | **20180205 v1.2 Board**                   | **CowTech Board**                   |
+|--------------------------------|-------------------------------------------|-------------------------------------|
+| **Designer**                   | Specific to Ciclop (promoted by BQ)      | Original design by CowTech          |
+| **Processor**                  | ATmega1284P                               | ATmega1284P                         |
+| **Motor Drivers**              | 2 integrated motor drivers                | 2 integrated motor drivers          |
+| **Firmware**                   | Ciclop-specific firmware                   | Ciclop-specific firmware             |
+| **Functionality**              | Designed for 3D scanning                  | Designed for 3D scanning            |
+| **Connectivity**               | USB interface                             | USB interface                       |
+
+### Similarities
+1. **Processor**: Both boards use the **ATmega1284P**, which is adequate for the tasks required in 3D scanning applications.
+
+2. **Motor Drivers**: Both boards include **two integrated stepper motor drivers**, suitable for operating the scanner's rotation and movement.
+
+3. **Firmware**: They both run firmware specifically developed for the **Ciclop 3D Scanner**, facilitating the necessary operations for scanning.
+
+4. **Functionality**: Both boards are fundamentally designed to function as a control unit for 3D scanning applications, maintaining a focus on similar objectives.
+
+### Differences
+- While the **20180205 v1.2 board** has become a standardized version with some potential enhancements, the original **CowTech board** may have featured variations depending on early prototypes or stages of development.
+
+- Any updates or enhancements in the **20180205 v1.2 board** may include improved circuitry or design elements based on feedback from users of the original CowTech board.
+
+### Conclusion
+Overall, the **20180205 v1.2 board** maintains a close alignment with the original **CowTech board**, sharing essential components and functionality tailored for the **Ciclop 3D Scanner**.
 
 ## Ciclop 3D Scanner Power-On Sequence
 
