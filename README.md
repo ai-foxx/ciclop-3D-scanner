@@ -40,7 +40,7 @@ The **20180205 v1.2 board**, also known as the **Ciclop 3D Scanner board**, has 
 
 | **Feature**              | **20180205 v1.2 Board**                   | **Typical RepRap Boards**          |
 |--------------------------|-------------------------------------------|------------------------------------|
-| **Processor**            | ATmega1284P                               | ATmega2560, LPC1768, STM32, etc.  |
+| **Processor**            | [ATmega1284P](#overview-of-atmega1284p)   | ATmega2560, LPC1768, STM32, etc.  |
 | **Motor Drivers**        | 2 integrated stepper motor drivers        | Variable; usually up to 5+ drivers |
 | **Supported Firmware**   | Specific Ciclop firmware                  | Various (e.g., [Marlin](https://github.com/MarlinFirmware/Marlin), [Smoothie](https://github.com/Smoothieware/))  |
 | **Features**             | Designed for 3D scanning, includes laser control | General-purpose 3D printing features |
