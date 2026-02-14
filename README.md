@@ -34,6 +34,36 @@ _Electronics_
 * 12V 1.5A power connector
 * 1 NEMA stepper motor (1.7A 1.8 deg/step)
 
+## Overview of the 20180205 v1.2 Board
+
+The **20180205 v1.2 board**, also known as the **Ciclop 3D Scanner board**, has its own unique features and specifications. Here’s an overview of its characteristics compared to typical RepRap boards:
+
+| **Feature**              | **20180205 v1.2 Board**                   | **Typical RepRap Boards**          |
+|--------------------------|-------------------------------------------|------------------------------------|
+| **Processor**            | ATmega1284P                               | ATmega2560, LPC1768, STM32, etc.  |
+| **Motor Drivers**        | 2 integrated stepper motor drivers        | Variable; usually up to 5+ drivers |
+| **Supported Firmware**   | Specific Ciclop firmware                  | Various (e.g., Marlin, Smoothie)  |
+| **Features**             | Designed for 3D scanning, includes laser control | General-purpose 3D printing features |
+| **Input Voltage**        | 12V                                       | Typically 12V or 24V depending on the board |
+| **Connectivity**         | USB interface for direct communication     | USB, SD card, UART, etc., depending on the board |
+
+### Key Characteristics of the 20180205 v1.2 Board
+
+- **Processor**: The board uses an **ATmega1284P**, which is less powerful than many 32-bit boards but sufficient for its specific operations.
+  
+- **Motor Drivers**: It has **two integrated stepper motor drivers**, suitable for the limited operational requirements of a 3D scanner (usually controlling two motors for rotation and movement).
+
+- **Firmware Support**: It is tailored to run specific firmware suitable for the Ciclop scanner, which might limit versatility compared to boards supporting multiple firmware options.
+
+- **3D Scanning Focus**: Unlike general-purpose RepRap boards, the 20180205 v1.2 is designed specifically for 3D scanning, with features optimized for laser control and scanning accuracy.
+
+- **Connectivity**: Primarily connects via USB, which allows for direct communication with a connected computer running the associated scanning software.
+
+### Conclusion
+
+The **20180205 v1.2 board** is specialized for the **Ciclop 3D Scanner**, offering unique features beneficial for 3D scanning applications. While it may lack the versatility of typical RepRap boards in terms of 3D printing, it excels in its intended function and is tailored for users focused on 3D scanning projects. If you need further details or comparisons, feel free to ask!
+
+
 ## Ciclop 3D Scanner Power-On Sequence
 
 The following steps outline the power-on sequence for the Ciclop 3D Scanner. It is crucial to follow this sequence carefully to prevent any potential damage to the components:
