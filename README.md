@@ -34,6 +34,20 @@ _Electronics_
 * 12V 1.5A power connector
 * 1 NEMA stepper motor (1.7A 1.8 deg/step)
 
+## Ciclop 3D Scanner Power-On Sequence
+
+The following steps outline the power-on sequence for the Ciclop 3D Scanner. It is crucial to follow this sequence carefully to prevent any potential damage to the components:
+
+1. **Connect Power Supply**: Ensure the 12V power supply is connected to the scanner.
+2. **Plug in USB Cable**: Connect the USB cable from the scanner to the computer **after** connecting the power supply.
+3. **Turn On Power**: Switch on the main power source for the scanner.
+4. **Initialize Components**: Allow the motors and lasers to initialize, which may include calibration sounds.
+5. **Start Software**: Launch the Horus software on your computer to control the scanner.
+6. **Set Up Camera**: Verify that the camera (e.g., Logitech C270) is connected and active.
+7. **Calibration**: Perform calibration steps as prompted by the Horus software, ensuring correct alignment of lasers and camera detection.
+
+For detailed guidance, refer to user manuals or community resources such as [Instructables](https://www.instructables.com/Ciclop-3d-Scanner-My-Way-Step-by-Step/) and [Mischianti's guide](https://mischianti.org/ciclop-3d-scanner-components-testing-and-calibration-4/).
+
 ## Directory structure
 
  * `step`: The original Ciclop step files. This folder is frozen. Find the latest version in the `freecad` folder
